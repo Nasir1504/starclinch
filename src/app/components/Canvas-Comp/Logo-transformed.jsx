@@ -35,7 +35,7 @@ export function Model(props) {
   
 
   return (
-    <group ref={groupRef} {...props} position={[0, props.Viewport.height * 0.4, 0]} dispose={null}>
+    <group ref={groupRef} {...props} position={[0, props.Viewport.height * 0.5, 0]} dispose={null}>
       <pointLight intensity={1} decay={2} distance={2000} position={[0.06, -3.21, 2.133]} scale={0.011} />
       <mesh
         geometry={nodes.Shape_3.geometry}

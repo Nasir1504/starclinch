@@ -56,7 +56,7 @@ function CanvasComponent() {
 
         <Float floatIntensity={1.5} floatingRange={[-0.25, 0.25]} >
             <Center>
-                <Model scale={2} Viewport={viewport} />
+                <Model scale={2.6} Viewport={viewport} />
             </Center>
         </Float>
 

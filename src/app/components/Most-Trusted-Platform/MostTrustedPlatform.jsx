@@ -1,7 +1,9 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React from 'react';
 
 //styles
 import './most-trusted-platform.scss';
+
+import InnerComp from './Inner-Comp/InnerComp';
 
 export default function MostTrustedPlatform({ Progress }) {
 
@@ -20,12 +22,14 @@ export default function MostTrustedPlatform({ Progress }) {
 
             <div className="card-main"
                 style={{
-                    minWidth: `${Math.min(100, (Math.max(34, (sValue * 200))))}%`,
-                    height: `${Math.min(48, (Math.max(32, (sValue * 100))))}vw`,
+                    minWidth: `${Math.min(100, (Math.max(34, (sValue * 460))))}%`,
+                    height: `${Math.min(48, (Math.max(34, (sValue * 200))))}vw`,
 
-                    // transform: `translateX(-${Math.min(30, (sValue * 60))}%)`
                 }}
-            ></div>
+            >
+                <InnerComp Progress={Progress}
+                />
+            </div>
 
             <div className="card-container">
                 <div className="card4 type-two"></div>

@@ -31,7 +31,7 @@ export default function App() {
         Progress: ''
     });
 
-    const sValue = (progress.Progress + (progress.Page - 1));
+    const sValue = (progress.Progress + (progress.Page - 1.68));
 
 
 
@@ -40,7 +40,7 @@ export default function App() {
             <p style={{ color: '#fff', position: 'fixed', zIndex: '10', top: '0' }}>
                 {progress.Progress}{' '}{progress.Page}
                 <br />
-                {34 * sValue * 100}
+                {sValue}
                 {/* 
                 {progress.Progress + (progress.Page - 1)}
                 <br />
@@ -71,7 +71,7 @@ export default function App() {
 
             <Stickyroll
                 pages={1}
-                factor={2}
+                factor={4}
 
                 onProgress={(progress, page, index) => {
                     setProgress({
@@ -94,11 +94,13 @@ export default function App() {
 
             <div
                 style={{
+                    position: 'relative',
                     width: '100%',
                     height: '100vh',
                     backgroundColor: '#000fff'
                 }}
             ></div>
+
 
 
         </div >

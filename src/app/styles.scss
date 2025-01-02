@@ -1,0 +1,34 @@
+@import './assets/fonts/stylesheet.css';
+
+* {
+    font-family: "Okine", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    
+}
+
+body,html{
+    height: 100%;
+}
+
+body{
+ /* width */
+ ::-webkit-scrollbar {
+    display: none;
+}
+}
+
+.main-section {
+    width: 100%;
+    // height: 100vh;
+    background-color: #000;
+
+   
+
+
+
+}

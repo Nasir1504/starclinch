@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src",  // Set the base URL to the src directory
     "paths": {
-      "@/*": ["./src/*"]
+      "@assets/*": ["app/assets/*"],  // Aliases for assets folder
+      "@components/*": ["app/components/*"],  // Aliases for components folder
     }
   }
 }

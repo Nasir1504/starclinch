@@ -1,0 +1,51 @@
+.app-main-container {
+    position: relative;
+    width: 100%;
+    // background-color: #fff000;
+    display: flex;
+    flex-direction: column;
+    // overflow: hidden;
+
+
+    .star-canvas-container {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        z-index: 0;
+        background-color: #000;
+
+        .stars-Canvas {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+
+        }
+
+        .bg-img {
+            position: absolute;
+            opacity: 0.2;
+        }
+
+    }
+
+    .app-scroll-main {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        // background-color: #000fff;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+        
+
+
+    }
+}

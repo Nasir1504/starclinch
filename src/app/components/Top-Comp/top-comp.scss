@@ -1,0 +1,46 @@
+.top-comp-main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    // border: 1px solid #fff;
+
+    .heading {
+        position: absolute;
+        font-size: 14vw;
+        font-weight: 600;
+        opacity: 0.8;
+        transition-delay: 0.5s;
+    }
+
+    .sub-heading {
+        position: absolute;
+        top: 15%;
+        text-align: center;
+        font-size: 1.8vw;
+        font-weight: 300;
+
+        span {
+            font-style: italic;
+        }
+
+        .bold-text {
+            color: #F16633;
+            font-weight: 500;
+            font-style: none;
+
+        }
+    }
+
+    // .heading, 
+    .sub-heading {
+        opacity: 0;
+        /* Start invisible */
+    }
+}

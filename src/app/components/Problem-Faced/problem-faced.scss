@@ -1,0 +1,53 @@
+.problem-faced-main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // background-color: #fff000;
+    // transform: translateY(100vh);
+    // border: 1px solid #fff;
+
+    h3 {
+        color: #fff;
+        font-size: 5vw;
+        text-transform: uppercase;
+        // background-color: #fff;
+        letter-spacing: -0.05em;
+        line-height: 1.5;
+
+    }
+
+    p {
+        color: #ffffff5b;
+        font-size: 1.2vw;
+        font-weight: 300;
+        width: 66%;
+        text-align: center;
+        // background-color: #fff;
+
+    }
+
+    .bottom-sec {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // border: 1px solid #fff;
+        gap: 5%;
+
+        .card,
+        .card {
+            width: 30%;
+            height: 32vw;
+            border-radius: 2vw;
+            background-color: orange;
+        }
+
+    }
+
+}
